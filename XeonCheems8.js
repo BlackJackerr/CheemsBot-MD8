@@ -1500,7 +1500,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │𝗕𝗼𝘁 : ${global.botname}
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
+│𝗣𝗿𝗲𝗳𝗶𝘅 :  ${prefix} 
 │𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
 │𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
